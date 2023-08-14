@@ -9,4 +9,4 @@
 - Step 3: Commit and push
 - Step 4: Create issue and Pull Request for addition in to this repository
 - Done
-## Task: Write and HTML Code to Display your name and Last Four Digit of Roll Number and submit to this repository. Use all the tags discussed in the class and more contents along with CSS wherever possible.
+## Task: Write an HTML Code to Display your name and Last Four Digit of Roll Number and submit to this repository. Use all the tags discussed in the class and more contents along with CSS wherever possible.
