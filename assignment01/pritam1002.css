@@ -1,4 +1,25 @@
-#class_1{
+/* #class_1{
     color: aqua;
     background-color: rgb(52, 52, 133);
+} */
+
+#box{
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+body {
+    font-family: "Comic Sans MS";
+    background-color: #bc5959;
+    margin: 0;
+    padding: 0;
+    } 
+h1 {
+    text-align: center;
 }
+/* p{
+    text-align: center;
+} */
