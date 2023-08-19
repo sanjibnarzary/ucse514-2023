@@ -1,0 +1,20 @@
+html {
+	color-scheme:	dark;
+}
+
+h1 {
+  text-align: center;
+  color: lime;
+}
+
+.p1, .p2, .p3 {
+	text-align: center;
+}
+
+.test {
+	width: 25em;
+	border: 2px solid green;
+	padding: 20px;
+	margin: 0 auto;
+	font-family: Arial;
+}
