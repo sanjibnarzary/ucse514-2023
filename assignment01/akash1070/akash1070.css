@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Prism&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://p1.pxfuel.com/preview/605/169/309/wonderful-color-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  font-family: "Tilt Prism", cursive;
+}
+.mainContent .Details {
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
