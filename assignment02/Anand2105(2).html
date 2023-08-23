@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Layout Assignment 2 </title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: auto;
+            grid-template-areas: "sidebar main";
+        }
+        
+        #sidebar {
+            background-color: #EEC602;
+            color: #000000;
+            padding: 20px;
+        }
+        
+        #main {
+            padding: 20px;
+        }
+        
+        #profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <img id="profile-image" src="C:\Users\anand mahato\Pictures\Camera Roll\334649460_1250825982139080_4983101296767500236_n.jpg" alt="Profile Image">
+        <h2> Name: Anand Mahato </h2>
+        <p>Roll No: 2105</p>
+    </div>
+    <div id="main">
+        <h1>About Me</h1>
+        <p> My self Anand Mahato a student of CIT Kokrajhar, 5th sem Computer Science and Engineering .</p>
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Traveling</li>
+            <li>Photography</li>
+        </ul>
+        <h2>Contact Information</h2>
+        <p>Email: anandmahato259@gmail.com</p>
+        <p>Phone: 9678386613</p>
+    </div>
+</body>
+</html>
