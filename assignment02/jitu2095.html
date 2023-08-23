@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Layout Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: auto;
+            grid-template-areas: "sidebar main";
+        }
+        
+        #sidebar {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        #main {
+            padding: 20px;
+        }
+        
+        #profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <img id="profile-image" src="C:\Users\anand mahato\Pictures\Camera Roll\cropped-nature-scaled-1.jpg" alt="Profile Image">
+        <h2> Name Jitu Boro </h2>
+        <p>Roll No: 2095 </p>
+    </div>
+    <div id="main">
+        <h1>About Me</h1>
+        <p>My Name is Jitu Boro,pursuing B.tech degree in Computer Science & Engineering in Central Institute of Technology(CIT)kokrajhar.My hobby is basically singing,dancing and Playing sports and apart from all of this I am a huge automobile enthusiast and have interest in basic terminology of science. </p>
+    </div>
+</body>
+</html>
