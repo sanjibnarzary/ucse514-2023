@@ -86,7 +86,7 @@ h3{
 .page-aside{
     max-width: 400px;
     grid-area: aside;
-    padding-inline: 1.5rem;
+    padding: 1rem 1.5rem;
     background-color: var(--BGCOLOR);
     border-block: 5px solid var(--PRIMARY-COLOR);
 
@@ -96,7 +96,7 @@ h3{
 }
 .page-aside h2{
     text-align: center;
-    margin-block: 1rem;
+    margin-top: 1rem;
 }
 
 .primary-footer{
