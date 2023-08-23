@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to top right, #648880 20%, #293f50 );
+    }
+    
+    
+    section {
+      display: flex;
+      justify-content: space-between;
+      padding: 5rem;
+    }
+    .left {
+      flex: 1;
+      padding: 5rem;
+      background-color: #fffff0;
+    }
+    .right {
+      flex: 1;
+      padding: 5rem;
+      background-color: #d2691e;
+    }
+   
+    </style>
+  
+   </head>
+
+<body>
+ 
+  <section>
+    <div class="left">
+      <h2>Left Section</h2>
+      <img src="file:///C:/Users/Acer/Pictures/LI_blur.jpg" WIDTH="40%" alt="Left Image">
+      <p>==========</p>
+    </div>
+    <div class="right">
+      <h2>Right Section</h2>
+      <img src="=========" alt="Right Image">
+      <p>==========</p>
+    </div>
+  
+</body>
+</html>
