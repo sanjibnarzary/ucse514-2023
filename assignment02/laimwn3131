@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Assignment 2
+    </title>
+</head>
+<body>
+    <div class="la">
+        <center>
+            <h1>
+                <b><u>BEAUTIFUL NATURE</b></u>
+            </h1>
+            <h2>
+                <i> Nature is full of colours, it gives peace to people.</i>
+            </h2>
+        </center>
+    </div>
+    <br>
+<div class="he">
+   
+        <center>
+            <h2>
+                <i>Nature heals the pain of people.</i>
+            </h2>
+        </center>
+    </div>
+    <br>
+    <div class="ha">
+        <center>
+            <h2>
+                <i>Nature gives us everything.</i>
+            </h2>
+        </center>
+      </div>
+<style>
+        body{
+            background-image: url('https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29vZGVuJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    </body>
+    </html>
