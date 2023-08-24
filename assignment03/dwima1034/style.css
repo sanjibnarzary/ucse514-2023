@@ -16,6 +16,7 @@ h1 {
     margin-block: 32px 24px;
 }
 
+
 form {
     background-color: #ffffff;
     padding: 20px;
@@ -64,6 +65,9 @@ input[type="radio"] {
 .input-group input[type="radio"]:last-of-type{
     margin-inline-start: 24px;
 }
+
+
+/* Buttons */
 
 .btn{
     border: none;
