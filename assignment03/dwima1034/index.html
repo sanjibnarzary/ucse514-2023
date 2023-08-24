@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Signup and Signin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>User Sign Up</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <section class="form-item">
+            <label for="signup-name">Name:</label>
+            <input type="text" id="signup-name" name="name" required>
+        </section>
+
+        <section class="form-item">
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="email" required>
+        </section>
+
+        <section class="form-item">
+            <label for="signup-dob">Date of Birth:</label>
+            <input type="date" id="signup-dob" name="dob" required>
+        </section>
+
+        <section class="form-item">
+            <label for="signup-branch">Branch:</label>
+            <select id="signup-branch" name="branch">
+                <option value="none">---Select a Branch---</option>
+                <option value="cse">Computer Science & Engineering</option>
+                <option value="ce">Civil Engineering</option>
+                <option value="fet">Food Engineering and Technology</option>
+                <option value="ece">Electronics & Communictaion Engineering</option>
+                <option value="ie">Instrumentation Engineering</option>
+                <option value="mcd">Multimedia Communication and Design</option>
+            </select>
+        </section>
+
+        <section class="form-item">
+            <label>Gender:</label>
+            <div class="input-group">
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+
+        </section>
+
+        <section class="form-item">
+            <label for="signup-photo">Photo:</label>
+            <input type="file" id="signup-photo" name="photo" accept="image/*" required>
+        </section>
+
+        <button class="btn form-btn">Sign Up</button>
+    </form>
+
+    <h1>User Sign In</h1>
+    <form action="#" method="post">
+        <section class="form-item">
+            <label for="signin-email">Email:</label>
+            <input type="email" id="signin-email" name="email" required>
+        </section>
+
+        <section class="form-item">
+            <label for="signin-password">Password:</label>
+            <input type="password" id="signin-password" name="password" required>
+        </section>
+
+        <button class="btn form-btn">Sign In</button>
+    </form>
+</body>
+
+</html>
