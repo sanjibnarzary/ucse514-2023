@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Sign up and Sign in</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8FBC8F;
+            margin: 0;
+            padding: 0;
+        }
+        
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5dc;
+            color: #161616;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            font-weight: bold;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="date"],
+        form select,
+        form input[type="file"],
+        form input[type="submit"] {
+            display: block;
+            width: 90%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #444141;
+            border-radius: 4px;
+            color: #0e0e0e;
+        }
+
+        form select {
+            height: 40px;
+        }
+
+        form input[type="submit"] {
+            background-color: #1286f3;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #1688fa;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <h2>Sign Up</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="branch">Branch:</label>
+        <select id="branch" name="branch" required>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="FPT">FPT</option>
+            <option value="AMT">AMT</option>
+            <option value="CE">CE</option>
+        </select>
+
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female" required> Female</label>
+        <br> <br>
+        <label for="photo">Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+
+        <input type="submit" value="submit">
+    </form>
+
+    <form action="#" method="post">
+        <h2>Sign In</h2>
+        <label for="signinEmail">Email:</label>
+        <input type="email" id="signinEmail" name="signinEmail" required>
+
+        <label for="signinPassword">Password:</label>
+        <input type="password" id="signinPassword" name="signinPassword" required>
+        <br> <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
