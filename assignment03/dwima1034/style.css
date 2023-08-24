@@ -62,6 +62,11 @@ input[type="radio"] {
     display: flex;
 
 }
+
+.input-group label{
+    margin: 0;
+}
+
 .input-group input[type="radio"]:last-of-type{
     margin-inline-start: 24px;
 }
