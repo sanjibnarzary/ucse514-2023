@@ -1,0 +1,157 @@
+body {
+  background-color: #141d2b;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-box {
+  padding: 150px;
+  height: 140px;
+  width: 360px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.signup-box {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+form {
+  width: 300px;
+  margin-left: 25px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: lime;
+  color: white;
+  font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  caret-color: white;
+  color:  #A4B1CD;
+  font-size: 16px;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.para-2x {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 220px;
+}
+
+.para-2 a {
+  color: #49c1a2;
+}
+
+.card, .card2 {
+  background-color: #1A2332;
+  padding-bottom: 20px;
+}
+
+.e-text, .p-text {
+  color: #A4B1CD;
+}
+
+.em, .pass {
+  background-color: #111927;
+}
+
+.n, .txt, .em2, .psd, .cpsd {
+  background-color: #111927;
+}
+
+
+.name, .branch, .email, .passwd, .confirmpasswd, .dob, .gender, .image {
+  color: #A4B1CD;
+}
+
+.up {
+  color: black;
+  background-color: white;
+  padding: 8px;
+  width: 105%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.branch-select, .gender-select {
+  color: #A4B1CD;
+  background-color: #111927;
+  padding: 8px;
+  width: 105%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.dob-year, .dob-month, .dob-day {
+  color: #A4B1CD;
+  background-color: #111927;
+  padding: 8px;
+  width: 32%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-top: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
