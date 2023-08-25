@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Assignment03</title>
+<style>
+    body{
+        background-image: url(3.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    h1{
+        color:lightsteelblue;
+        font-family: Times New Roman;
+    }
+    label{
+        color:white;
+    }
+</style>
+<body>
+<h1>HTML FORMS</h1>
+<form action="/action_page.php">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob"><br>
+    <label for="branch">Choose a Branch:</label>
+    <select id="branch" name="branch">
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="FET">FET</option>
+        <option value="IE">IE</option>
+        <option value="MCD">MCD</option>
+        <option value="CIVIL">CIVIL</option>
+    </select>
+    <br>
+    <label for="gender">Gender:</label>
+    <select id = "gender" name = "gender">
+        <option value = "Male">Male</option>
+        <option value = "Female">Female</option>
+    </select>
+    <br>
+    <input type="file" id="myfile" name="filename">
+    <br>
+    <input type = "submit" value = "Submit">
+</form>
+</body>
+</head>
+</html>
