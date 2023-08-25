@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment01</title>
+    <style>
+      body{
+
+        margin-top: 25px;
+        padding: 5px 10px;
+        background-color: #0f0e42;
+        color: #33ff00;
+      }
+
+      header{
+        font-family: Geneva;
+        text-align: center;
+        color: #15ff01;
+      }
+
+      #show, #content{display:none;}
+      #show:checked~#content{display:block;}
+
+      .name {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        border: 5px solid #000000;
+        border-style: dashed;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #0079d1;
+        font-family: Geneva;
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1> -:Details:- </h1></header>
+    <div>
+      <p class="name">
+        +_+ <br>[HELLO]<br> > My name is Bidur Roy
+      </p>
+    </div>
+    <br>
+    <div class="name">
+      <input id="show" type="checkbox">
+      <p><label for="show">> My Roll No.:  2112</p>
+      <span id="content">202102022112</span> </label>
+    </div>
+    <p style="color: #007bff; font-size: 21px;"><b>click 2110</b><p>
+  </body>
+</html>
