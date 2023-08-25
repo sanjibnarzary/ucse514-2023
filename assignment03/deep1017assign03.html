@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Signup and Signin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            width: 400px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            transition: border-color 0.2s;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Deep Boro Assignment 3</h1>
+        <h1>Welcome to my page</h1>
+        <form action="signup.php" method="POST" enctype="multipart/form-data">
+            <label for="signup-name">Name:</label>
+            <input type="text" id="signup-name" name="signup-name" required>
+
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="signup-email" required>
+
+            <label for="signup-dob">Date of Birth:</label>
+            <input type="date" id="signup-dob" name="signup-dob" required>
+
+            <label for="signup-branch">Branch:</label>
+            <select id="signup-branch" name="signup-branch" required>
+                <option value="engineering">Engineering</option>
+                <option value="science">Science</option>
+                <option value="arts">Arts</option>
+            </select>
+
+            <label>Gender:</label>
+            <input type="radio" id="signup-male" name="signup-gender" value="male" required>
+            <label for="signup-male">Male</label>
+            <input type="radio" id="signup-female" name="signup-gender" value="female" required>
+            <label for="signup-female">Female</label>
+
+            <label for="signup-photo">Photo:</label>
+            <input type="file" id="signup-photo" name="signup-photo" accept="image/*" required>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>
