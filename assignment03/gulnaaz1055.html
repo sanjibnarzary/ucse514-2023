@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Signup and Signin</title>
+<link rel="stylesheet" href="gulnaaz1055.css">
+</head>
+<body>
+  <div class="form-container" id="signup-form">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="dob">DOB:</label>
+      <input type="date" id="dob" name="dob" required>
+      
+      <label for="branch">Branch:</label>
+      <select id="branch" name="branch">
+        <option value="branch1">Branch 1</option>
+        <option value="branch2">Branch 2</option>
+        <option value="branch3">Branch 3</option>
+      </select>
+      
+      <label>Gender:</label>
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+      
+      <label for="photo">Photo:</label>
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+      
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+  
+  <div class="form-container" id="signin-form">
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+</body>
+</html>
