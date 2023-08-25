@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+}
+.main{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.title{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    height: 85%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 15px;
+    align-items: center;
+}
+.input{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-direction: column;
+}
+.input input{
+    height: 40px;
+    padding: 0 5px;
+}
+.submit{
+    height: 15%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit button{
+    height: 70%;
+    width: 100%;
+}
+.toNext{
+    font-size: 18px;
+    margin-top: 15px;
+    display: flex;
+    gap: 35px;
+}
+/* login */
+.login{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 85%;
+    width: 70%;
+}
+.loginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+.loginBtn button{
+    height: 70%;
+    width: 100%;
+}
+@media(max-width:900px){
+    .main{
+        height: 90%;
+        width: 100%;
+    }
+    .form{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .toLogin{
+        height: 5%;
+    }
+}
