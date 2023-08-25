@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-block: 32px 24px;
+}
+
+
+.container{
+    width: 50%;
+    margin: 24px auto;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.form-item{
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select,
+input[type="file"] {
+    font-family: inherit;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    height: 34px;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+.input-group{
+    display: flex;
+
+}
+
+.input-group label{
+    margin: 0;
+}
+
+.input-group input[type="radio"]:last-of-type{
+    margin-inline-start: 24px;
+}
+
+
+/* Buttons */
+
+.btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn.form-btn{
+    background-color: #007bff;
+    color: #fff;
+
+}
+
+.btn.form-btn:hover {
+    background-color: #0056b3;
+}
+
+:not(input[type="radio"]):focus, select:focus{
+    outline: #fff solid 1px;
+    box-shadow: 0 0 4px 2px #339af0;
+}
