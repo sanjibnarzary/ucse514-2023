@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>My html Webpage</title>
+<style>
+    body{
+background:url(n.webp);
+background-size: cover;
+  }
+
+  h1,h2{
+    color: blue;
+  }
+  .box{
+    width: 400px;
+    height: 600px;
+    margin: 50px auto 0;
+    text-align: center;
+    background: rgb(171, 173, 168);
+    padding: 25px;
+    border: 3px orange;
+    border-radius: 75px 0 75px 0;
+  }
+
+  
+</style>
+</head>
+<body>
+  <div class="box">
+<h1>USER SIGNUP</h1>
+<form action="signup_process.php" mathod="post"enctype="multipart/form-data">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"placeholder="Enter your name"class="input text" required><br><br>
+  <label for=" email"> Email:</label>
+  <input type="text" id="email" name="email" placeholder="Enter your email"class="input text"required><br><br>
+  <lebel for="DOB">DOB</lebel>
+  <input type="date" id=" DOB" name=" DOB" required><br><br>
+  <label for="branch"> Branch:</label>
+        <select id="branch" name="branch">
+          <option value="options">options</option>
+         <option value=" CSE"> CSE</option>
+         <option value="ECE"> ECE</option>
+         <option value="IE"> IE</option>
+         <option value="Civil"> Civil</option> 
+         <option value="FET"> FET</option> 
+        </select><br><br>
+        <label for="Gender"> Gender:</label>
+        <input type="radio" name="Gender" value="male">male
+        <input type="radio" name="Gender" value="female"> female<br><br>
+        <label for="photo">Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+        <label for="password">Password:</label>
+        <input type="text" id="password"name="password" placeholder="Enter your password"class="input text" required><br><br>
+        <label for="password">Confirm Password:</label>
+        <input type="text" id="password"name="password" placeholder="Enter your password"class="input text" required><br><br>
+        <input type="submit" value="signup">
+</form>
+
+
+<h2> USER SIGNIN</h2>
+<form action=" signin_process.php" mathod="post" enctype="multipart/form-data">
+  <label for="name/email">Email/Name:</label>
+  <input type="text" id="email/name" name="email/name" placeholder="Enter your email/name"class="input text"required><br><br>
+  <label for="password">Password:</label>
+  <input type="text" id="password"name="password" placeholder="Enter your password"class="input text" required><br><br>
+  <input type="submit" value="signin">
+</div>
+</form>
+</body>
+</html>
