@@ -17,13 +17,17 @@ h1 {
 }
 
 
+.container{
+    width: 50%;
+    margin: 24px auto;
+}
+
 form {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
-    margin: 0 auto;
+    
 }
 
 .form-item{
