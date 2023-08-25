@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://wallup.net/wp-content/uploads/2016/01/63886-landscape-nature.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#container{
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 100px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 10);
+    background: 0 5px 15px rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255); font-size:18px;
+    background: 0 5px 15px rgba(0, 0, 0, 10);
+
+} 
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255); font-size:18px;
+    background-color: rgb(0, 94, 255);
+
+} 
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255); font-size:18px;
+    background-color: rgb(0, 94, 255);
+
+} 
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255); font-size:18px;
+
+} 
