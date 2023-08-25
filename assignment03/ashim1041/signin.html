@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Signup and Signin</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  label, input, select {
+    display: block;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+  <h1>User Signup</h1>
+  <form action="signup_process.php" method="POST" enctype="multipart/form-data">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    
+    <label for="branch">Branch:</label>
+    <select id="branch" name="branch" required>
+      <option value="branch1">Branch 1</option>
+      <option value="branch2">Branch 2</option>
+      <option value="branch3">Branch 3</option>
+    </select>
+    
+    <label>Gender:</label>
+    <label><input type="radio" name="gender" value="male"> Male</label>
+    <label><input type="radio" name="gender" value="female"> Female</label>
+    
+    <label for="photo">Photo:</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required>
+    
+    <button type="submit">Signup</button>
+  </form>
+
+  <h1>User Signin</h1>
+  <form action="signin_process.php" method="POST">
+    <label for="signin_email">Email:</label>
+    <input type="email" id="signin_email" name="signin_email" required>
+    
+    <label for="signin_password">Password:</label>
+    <input type="password" id="signin_password" name="signin_password" required>
+    
+    <button type="submit">Signin</button>
+  </form>
+</body>
+</html>
+
