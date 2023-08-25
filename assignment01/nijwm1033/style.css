@@ -1,0 +1,26 @@
+*{
+    border: 0;
+    padding: 0;
+    background-color: #919191;
+}
+
+.niju{
+    
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    
+}
+.text{
+    margin:0 auto;
+    width:50%;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 151);
+}
+h1 , p {
+    text-align: center;
+}
+span{
+    color: rgb(161, 3, 3);
+}
