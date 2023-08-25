@@ -1,0 +1,21 @@
+body{
+    background-image: url('pic1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#container{
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color:#868fb8;
+}
+h1 {
+    text-align: center;
+}
+p{
+    text-align: center;
+} 
