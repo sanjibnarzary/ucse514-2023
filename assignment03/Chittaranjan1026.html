@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: darkgray ;
+            margin:90px;
+            padding:10px;
+        }
+
+        h2 {
+            margin: 10px;
+            border-radius: 5px;
+            color: rgb(207, 122, 42);
+            background-color: rgb(196, 219, 212);
+            padding:10px 20px;
+        }
+
+        form {
+            margin: 2%;
+            background-color: rgba(110, 39, 39, 0.404);
+            border: 1px solid#0056b3;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.733);
+
+        }
+
+        label {
+            color:rgb(2, 3, 46);
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        select,
+        input[type="password"],
+        input[type="file"] {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-bottom: 15px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: none;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+    <title>assignment03</title>
+</head>
+<body>
+<hr>
+<h2>User Sign up</h2>
+<form>
+    <label for="signupName">Name:</label>
+    <input type="text" id="signupName" name="signupName" required>
+    <br><br>
+
+    <label for="signupEmail">Email:</label>
+    <input type="email" id="signupEmail" name="signupEmail" required><br><br>
+
+    <label for="signupDOB">DOB:</label>
+    <input type="date" id="signupDOB" name="signupDOB" required><br><br>
+
+    <label for="signupBranch">Branch:</label>
+    <select id="signupBranch" name="signupBranch">
+        <option value="branch1">CSE</option>
+        <option value="branch2">IE</option>
+        <option value="branch3">ECE</option>
+        <option value="branch4">CE</option>
+        <option value="branch5">FET</option>
+    </select><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="signupGender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="signupGender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <label for="signupPhoto">Photo:</label>
+    <input type="file" id="signupPhoto" name="signupPhoto" accept="image/*" required><br><br>
+
+    <input type="submit" value="Sign up">
+</form>
+
+<hr>
+<hr>
+<h2>User Sign in</h2>
+<form >
+    <label for="signinEmail">Email:</label>
+    <input type="email" id="signinEmail" name="signinEmail" required><br><br>
+
+    <label for="signinPassword">Password:</label>
+    <input type="password" id="signinPassword" name="signinPassword" required><br><br>
+
+    <input type="submit" value="Sign in">
+</form>
+<hr>
+</body>
+</html>
