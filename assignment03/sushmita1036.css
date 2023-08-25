@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: rgb(223, 233, 240);
+    
+}
+
+.header {
+    background-color: #36853c;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.header img {
+    height: 60px;
+    width: 60px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(88, 159, 102);
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+
+
+
+    position: fixed;
+  left: 0;
+  bottom: 0;
+ 
+
+    
+}
+
+.page {
+    background-color: whitesmoke;
+    width: 30%;
+    position: relative;
+    top: 70px;
+    left: 32%;
+    padding: 30px;
+    filter: drop-shadow(10px 10px 3px gray);
+}
+
+
+.pg-1 {
+    float: left;
+}
+#st{
+    margin-left: 10px;
+}
+
+
