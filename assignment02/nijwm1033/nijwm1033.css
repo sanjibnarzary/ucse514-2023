@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    text-align:center;
+    display: flex;
+    flex-direction:column;
+    font-size: 24px;
+    font-family: sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1617854818583-09e7f077a156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    color: white;
+
+}
+
+header{
+    background-color: rgba(3, 3, 131, 0.575);
+    padding:2em 0em 2em 0em;
+
+}
+header:hover{
+    background-color: rgba(3, 3, 131, 0.849);
+}
+nav{
+    background-color: rgba(62, 6, 99, 0.226);
+    padding:2em 0em 2em 0em;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav:hover{
+    background-color: rgba(97, 6, 158, 0.37);
+    padding:2em 0em 2em 0em;
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+aside{
+    display: block;
+    background-color: rgba(0, 128, 0, 0.068);
+    padding:6em 0em 6em 0em;;
+    
+}
+aside:hover{
+    background-color: rgba(0, 128, 0, 0.397);
+}
+article{
+    background-color: rgba(238, 255, 0, 0.034);
+    padding:6em 0em 6em 0em;;
+}
+article:hover{
+    background-color: rgba(238, 255, 0, 0.349);
+}
+footer{
+    background-color: rgba(12, 83, 6, 0.185);
+    padding:2em 0em 2em 0em;;
+}
+footer:hover{
+    background-color: rgba(12, 83, 6, 0.425);
+}
+main{
+    display:flex;
+    flex-direction: row;
+    
+}
+.items{
+    width:50%;
+}

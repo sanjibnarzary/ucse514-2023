@@ -1,0 +1,36 @@
+*{
+    border: 0px;
+    padding: 0px;
+}
+body{
+    background-image: 
+    ;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.forms{
+    margin:10px;
+    padding:40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+    text-align: start;
+}
+.header{
+    font-size: 35px;
+    color:darkgrey;
+}
+button{
+    background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer; 
+}
