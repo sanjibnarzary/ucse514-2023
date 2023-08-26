@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Signup and Signin</title>
+<link rel ="stylesheet" href ="KOUSHIK2113_3.CSS">
+</head>
+<body>
+
+
+<h2>Signup</h2>
+<form action="signup.php" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <div>Name:</div>
+    <input type="text" name="signup-name" required>
+  </div>
+  
+  <div class="form-group">
+    <div>Email:</div>
+    <input type="email" name="signup-email" required>
+  </div>
+  
+  <div class="form-group">
+    <div>DOB:</div>
+    <input type="date" name="signup-dob" required>
+  </div>
+  
+  <div class="form-group">
+    <div>Branch:</div>
+    <select name="signup-branch" required>
+      <option value="branch1">CSE</option>
+      <option value="branch2">CE</option>
+      <option value="branch3">MCD</option>
+    </select>
+  </div>
+  
+  <div class="form-group">
+    <div>Gender:</div>
+    <input type="radio" name="signup-gender" value="male" required> Male
+    <input type="radio" name="signup-gender" value="female" required> Female
+  </div>
+  
+  <div class="form-group">
+    <div>Photo:</div>
+    <input type="file" name="signup-photo" accept="image/*" required>
+  </div>
+  
+  <button type="submit">Signup</button>
+</form>
+
+
+<h2>Signin</h2>
+<form action="signin.php" method="post">
+  <div class="form-group">
+    <div>Email:</div>
+    <input type="email" name="signin-email" required>
+  </div>
+  
+  <div class="form-group">
+    <div>Password:</div>
+    <input type="password" name="signin-password" required>
+  </div>
+  
+  <button type="submit">Signin</button>
+</form>
+
+</body>
+</html>
