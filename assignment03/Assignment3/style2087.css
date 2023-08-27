@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(87, 165, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.container .title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.container form .user-details .inputbox{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 25%;
+    width: 75%;
+}
+
+
+.user-details .inputbox input{
+    height: 40px;
+    width: 100%;
+}
+
+.container form .button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+form button{
+    font-size: 25px;
+    margin-top: 5px;
+}
