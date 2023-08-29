@@ -1,0 +1,48 @@
+body{
+    background-image: url('https://cdn.wallpapersafari.com/15/22/AMUryg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+input{
+    padding: 4px;
+    width: 28.5vh;
+    border-radius: 15px;
+}
+select {
+    padding: 4px;
+    width: 30vh;
+    border-radius: 15px;
+}
+.button {
+    width: 90%;
+    height: auto;
+    color: #27087c;
+    border-radius: 15px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.sidebar {
+    height: 98%;
+    width: 170px;
+    top: 1%;
+    right: 0%;
+    position: absolute;
+    background-color: #6547b8;
+    border-radius: 15px;
+}
+.midle{
+    display:flex;
+    justify-content:center;
+    font-size: 18px;
+    color: rgb(54, 255, 181);
+    border-radius: 15px;
+    margin: 10.9%;
+    right: 100vh;
+    padding: 20px;
+    background-color: #6547b8;
+}
