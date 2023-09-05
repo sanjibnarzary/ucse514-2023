@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+
+    background-color: aqua;
+
+}
+
+.container{
+    text-align: center;
+}
+
+.container img{
+    width: 67%;
+    height: 550px;
+    margin-top: 00px;
+}
+
+.details{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+details ::after{
+    width: 600px;
+}
