@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Signup</title>
+  <style>
+    body {
+      font-family:Verdana (sans-serif);
+      margin: 0;
+      padding: 0;
+      background-color: hsl(0, 69%, 5%);
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(200, 191, 191, 0.1);
+      border-radius: 5px;
+    }
+    h1 {
+      text-align: center;
+    }
+    label, input, select {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>User Signup</h1>
+    <form action="signup_process.php" method="post" enctype="multipart/form-data">
+      <label for="First name">First Name:</label>
+      <input type="text" id="First name" name="First name" required>
+      
+      <label for=" Last name">Last Name:</label>
+      <input type="text" id="Last name" name="Last name" required>
+
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="Confirm password"> Confirm Password:</label>
+      <input type="Confirm password" id="Confirm password" name="Confirm password" required>
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      
+      <label for="branch">Branch:</label>
+      <select id="branch" name="branch" required>
+        <option value="IE">Instrumentation Engineering</option>
+        <option value="CSE">Computer Science and Engineering</option>
+        <option value="ECE">Electronics & Communication Engineering</option>
+        <option value="FPT">Food Production and Technologies</option>
+        <option value="MCD">Multimedia and Communication</option>
+        <option value="CE">Civil Engineering</option>
+      </select>
+      
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      
+      <label for="photo">Photo:</label>
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+      
+      <input type="submit" value="Signup">
+    </form>
+  </div>
+</body>
+</html>
